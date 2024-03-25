@@ -1,4 +1,4 @@
-root {
+:root {
   --font-family-heading: "Anton", sans-serif;
   --font-family-body: "Noto Sans JP", sans-serif;
   --color-white: #fffefc;
@@ -14,4 +14,46 @@ root {
   --color-course-hover-yellow: #f4e877;
   --color-hero-overlay: #39186f66;
   --color-course-overlay: #200813a1;
+}
+
+/* global */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family-body);
+}
+
+img {
+  display: block;
+}
+
+/* header */
+.header {
+  height: 80px;
+  background-color: var(--color-background-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo-wrapper {
+  margin: 0;
+}
+
+.header-logo {
+  height: 50;
+}
+@media (max-width: 750px) {
+  .header {
+    height: 60px;
+  }
+
+  .header-logo {
+    height: 30px;
+  }
 }
