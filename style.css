@@ -235,6 +235,11 @@ img {
   background: var(--accent-yellow, #f2e52e);
   box-shadow: 4px 4px 0px 0px #f20574;
   text-decoration: none;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.course-card:hover {
+  background: var(--course-hover-yellow, #f4e877);
+  box-shadow: 12px 12px 2px 0px #f20574;
 }
 .course-card-title-img {
   display: flex;
@@ -300,6 +305,11 @@ img {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.course-button:hover {
+  background: var(--button-hover-red, #f043a5);
+  box-shadow: 12px 12px 2px 0px #f2e52e;
 }
 .course-button-text {
   color: var(--white, #fffefc);
