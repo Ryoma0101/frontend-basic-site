@@ -198,13 +198,13 @@ img {
 /* Course */
 .courses {
   background: var(--background-black, #171525);
-
   color: var(--white, #fffefc);
   display: flex;
   padding: 80px 0px;
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 .course-wrapper {
   display: flex;
