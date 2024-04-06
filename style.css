@@ -204,7 +204,6 @@ img {
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden;
 }
 .course-wrapper {
   display: flex;
@@ -213,7 +212,6 @@ img {
   align-items: center;
   gap: 40px;
   max-width: 880px;
-  overflow: hidden;
 }
 .course-title {
   font-family: Anton;
@@ -298,10 +296,10 @@ img {
   font-size: 16px;
 }
 .course-button {
-  width: 515px;
+  width: 100%;
   height: 60px;
-  background: var(--accent-yellow, #f20574);
-  box-shadow: 4px 4px 0px 0px #f2e52e;
+  background: var(--color-accent-red);
+  box-shadow: 4px 4px 0px 0px var(--color-accent-yellow);
   display: flex;
   padding: 10px 40px;
   justify-content: center;
@@ -310,12 +308,12 @@ img {
   transition: background 0.3s, box-shadow 0.3s;
 }
 .course-button:hover {
-  background: var(--button-hover-red, #f043a5);
-  box-shadow: 12px 12px 2px 0px #f2e52e;
+  background: var(--color-button-hover-red);
+  box-shadow: 12px 12px 2px 0px var(--color-accent-yellow);
 }
 .course-button-text {
-  color: var(--white, #fffefc);
-  font-family: "Noto Sans JP";
+  color: var(--color-white);
+  font-family: var(--font-family-body);
   font-size: 20px;
   margin: 0px;
   width: 385px;
@@ -334,7 +332,6 @@ img {
     gap: 40px;
   }
   .course-card {
-    width: 100%;
     height: auto;
     flex-direction: column;
   }
