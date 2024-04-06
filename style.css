@@ -316,7 +316,7 @@ img {
   font-family: var(--font-family-body);
   font-size: 20px;
   margin: 0px;
-  width: 385px;
+  width: 100%;
   padding-right: 10px;
   display: flex;
   justify-content: center;
