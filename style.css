@@ -362,7 +362,6 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  overflow: hidden;
 }
 .signup-title {
   color: var(--color-black);
@@ -416,6 +415,7 @@ label {
   align-items: center;
   text-decoration: none;
   transition: background 0.3s, box-shadow 0.3s;
+  border: none;
 }
 .signup-button:hover {
   background: var(--color-button-hover-red);
@@ -431,6 +431,9 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+textarea {
+  resize: none;
 }
 @media (max-width: 750px) {
   .signup {
