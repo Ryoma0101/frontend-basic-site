@@ -32,6 +32,7 @@ img {
   display: block;
 }
 
+/* button共通 */
 .button {
   width: 100%;
   height: 60px;
@@ -55,6 +56,15 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 750px) {
+  .button {
+    height: 40px;
+  }
+  .button-text {
+    font-size: 14px;
+  }
 }
 
 /* header */
@@ -385,9 +395,14 @@ img {
   width: 100%;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }
-
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
 .signup-input-wrapper {
   display: flex;
   justify-self: center;
